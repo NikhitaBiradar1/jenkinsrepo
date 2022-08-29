@@ -7,6 +7,7 @@ public class script1Test {
 	public void test1()
 	{
 		System.out.println("Start");
+		System.out.println("Start");
 		System.out.println("script1Test --> test1");
 	}
 

@@ -13,6 +13,7 @@ public class script4Test {
 	{
 		System.out.println("script4Test --> test2");
 		System.out.println("Stop");
+		System.out.println("Stop");
 	}
 
 }
