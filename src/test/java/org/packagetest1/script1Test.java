@@ -2,8 +2,10 @@ package org.packagetest1;
 
 import org.testng.annotations.Test;
 
-public class script1Test {
-	@Test
+import com.genericutility.BaseClass;
+
+public class script1Test extends BaseClass{
+	@Test (groups = "ST")
 	public void test1()
 	{
 		System.out.println("Start");

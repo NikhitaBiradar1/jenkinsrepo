@@ -2,13 +2,15 @@ package org.packagetest2;
 
 import org.testng.annotations.Test;
 
-public class script4Test {
-	@Test
+import com.genericutility.BaseClass;
+
+public class script4Test extends BaseClass {
+	@Test (groups =  "ST")
 	public void test1()
 	{
 		System.out.println("script4Test --> test1");
 	}
-	@Test
+	@Test (groups =  "RT")
 	public void test2()
 	{
 		System.out.println("script4Test --> test2");
