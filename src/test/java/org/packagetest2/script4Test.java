@@ -12,6 +12,7 @@ public class script4Test {
 	public void test2()
 	{
 		System.out.println("script4Test --> test2");
+		System.out.println("Stop");
 	}
 
 }
